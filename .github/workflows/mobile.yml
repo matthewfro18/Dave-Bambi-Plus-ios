@@ -46,6 +46,7 @@ jobs:
           haxelib setup ~/haxelib
           haxelib --quiet install hmm
           haxelib install hxcpp > nul
+          haxelib git actuate https://github.com/jgranick/actuate.git
           haxelib git lime https://github.com/openfl/lime.git
           haxelib git openfl https://github.com/openfl/openfl.git
           haxelib install flixel
